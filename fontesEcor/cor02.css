@@ -1,0 +1,59 @@
+@charset "UTF-8";
+
+/*  caso deseje procurar alguma fonte externa e baixar no compuitador 
+basta ir no site " dafonte.com" e baixar a desejada. fazendo isso ela vai pra pasta de downloads.
+logo depois, aqui é só escrever o seginte codigo:
+@font-face{
+  font-famuly: "digitar o nome que vc desejar" mas tem que ser entre aspas ;
+  src: url("nome do arquivo que baixou") fortat("formato do arquivo da fonte"), caso queira por outro formato é só da uma virgula e repetir o processo com outro url e outro format. e no final por ponto e virgula ;
+  font-weight: normal;
+  font-style: normla;
+ } 
+ 
+ tipo de FORMAT que podem aparecer
+ - opentype (otf)
+ - truetype(ttf)
+ - embedded-opentype
+ - truetype-aat (apple advanced typography)
+ - svg 
+ */
+
+
+
+body{
+  height: 100%;
+  background-image: linear-gradient(to top, yellow, blue, green );
+  background-attachment: fixed;
+ 
+}
+main{
+  background-color: rgb(147, 177, 177);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px black;
+  
+  width: 600px;
+  padding: 20px;
+  margin: auto;
+  
+}
+h1{
+  color: rgb(159, 132, 8);
+  text-shadow: 3px 3px 3px black;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 40px;
+  font-style: italic; /* deixa a fonte em italico */
+  text-decoration: underline; /* Sublinhar um texto */
+  /* existe uma ordem de aplicação da font:display: 
+  font-style -> font-weight -> font-size-> font-family ;*/
+}
+h2{
+  color: rgb(100, 93, 228);
+  font-family: fantasy;
+  font-size: 20px;
+}
+p{
+  color: rgb(64, 64, 100);
+  font-size: 20px;
+  font-weight: bold; /* peso da fonte! grossura */
+}

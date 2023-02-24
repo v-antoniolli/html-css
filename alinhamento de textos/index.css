@@ -1,0 +1,13 @@
+@charset "UTF-8";
+
+
+h1{
+  font: normal 18px arial, Verdana, Serif ;
+  text-align: center;  /* alinhamento de texto  */
+}
+
+p{
+  font: normal 18px arial, Verdana, Serif ;
+  text-align: justify; /* esse comando alinha o texto como desejar */
+  text-indent: 40px;  /* esse comando promove o afastamento de inicio de um paragrafo!*/
+}

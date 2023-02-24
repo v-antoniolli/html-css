@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1> imagem dinamica</h1>
+
+  <picture>
+    <source media="(max-width: 750px )" srcset="p.png" type="image/png">
+    <source media="(max-width: 1050px )" srcset="m.png" type="image/png">
+    <img src="g.png" alt="img flexivel">
+  </picture>
+  <h1>aprender a reproduzir audio em html 5  </h1>
+  <p>audio a ser reproduzido</p>
+  <audio src="Devil's Organ - Jimena Contreras.mp3" controls autopla loop></audio>
+
+  <h1>colocando videos</h1>
+  <p>A FORMA DE COLOCAR POR SOURCE É A MAIS EFICIENTE! DEVIDO A VARIOS TIPOS
+    DE ARQUIVO. TANTO PRA VIDEO. QUANTO AUDIO E IMG!!! PRESTAR ATENÇÃO!!!
+    AO FINAL DO ULTIMO SOURCE ESCREVER UM PARAGRAFO DIZENDO QUE OP NAVEGADOR NÃO SUPORTA O VIDEO
+    PQ A TENTATIVA DO NAEGADFOR É LINEAR!!!!!
+  </p>
+  <video controls autoplay loop>
+    <source src="video.mp4" type="video/mp4">
+  </video>
+
+  <h1> inserindo videos de locais externos</h1>
+  <p>caso queria inserir o link do youtube ou outro servidor é preciso apenas
+    pegar o url do local que deseja que rode aqui
+  </p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+</body>
+</html>

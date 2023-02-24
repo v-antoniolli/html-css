@@ -1,0 +1,26 @@
+/*
+USAR O INSPECIONAR DO GOOGLE DA MUITA AJUDA!!!!!!!!!!
+
+Sempre que vc colocar algum elemento > que outro elemento dentro dele. ela age como superior. então vc pode dar outra caracteristica a ele
+
+quando for colocar sombra na caixa é só selecionar
+box-shadow 1px 1px 1px black  e depois sair variando os px  ...direita/esquerda...cima/baixo..espalhamento da sombra...tipo de sombra CASO QUEIRA UMA SOMBRA INTERNA  é só por o codigo  inset  e um novo px ... ficando  4 px e 1 black
+
+
+
+BORDER RADIUS TBM FUNCIONA EM TODOS OS 4 LADOS OU...4 BORDAS...4 QUINAS"
+
+SE QUISER CRIAR SUA PROPRIA BORDA. VC PODE CRIAR UMA E ATRAVES DO COMANDO 
+BORDER-IMAGE-SOURCE: URL("NOME DO ARQUIVO")
+AI A BORDA DO ELEMNTO SELECIONADO VAI SER IGUAL O ARQUIVO NOS 4 CANTOS DA BORDA
+LOGO DEPOIS. USE O COMMANDO
+BORDER-IMAGE-SLICE: UM NUMERO QUALQUER EX 20 ... DEPOIS DE POR NO REPEAT... VAI TESTTANDO OS NUMEROS
+E USE TBM  O COMANDO
+BORDER-IMAGE- REPEAT: REPEAT 
+OU
+BORDER-IMAGE-REPEAT: STRETCH
+VÃO APRECER VARIAS IMAGENS PARECIDAS NO LUGAR DA BORDA INICIAL 
+É OBRIGATÓRIO TER UMA COR DE BORDA PRA ISSOI FUNCIONAR... PODE DEIXAR A COR DA BORDA COMO TRANSPARENTE!!! DICA!!
+
+
+*/

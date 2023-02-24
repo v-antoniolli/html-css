@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+div{
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  text-align: center;
+  background-color: beige;
+ 
+}
+
+/*  
+hover:
+quando passar o mause por cima!*/
+/*
+o contexto de subclasse existe quando se aloca a ela : ao invez de . */
+
+
+div:hover{
+  background-color: aqua;
+}
