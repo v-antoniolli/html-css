@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <h1>furmulario</h1>
+  <form action="cadastro.php" method="get" autocomplete="on">
+    <fieldset>
+      <legend>Dados pessoais</legend>
+      <p>
+        <label for="inome">nome:</label>
+        <input type="text" name="nome" id="inome" minlength="5" maxlength="30" required placeholder="nome">
+      </p>
+      <p>
+        <label for="iemail">Email:</label>
+        <input type="email" name="email" id="iemail" required maxlength="40" minlength="10" placeholder="email aqui" autocomplete="email" >
+      </p>
+      <p>
+        <label for="">telefone:</label>
+        <input type="tel" name="telefone" id="itelelefone" required pattern="^\({2}\)[0-9]{4,5}-[0-9]{4,5}$" autocomplete="tel" placeholder="(xx)xxxxx-xxxx">
+      </p>
+    </fieldset>
+    <input type="submit" value="enviar">
+    <input type="reset" value="apagar">
+  </form>
+</body>
+</html>
