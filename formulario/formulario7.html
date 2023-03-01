@@ -7,6 +7,36 @@
   <title>Document</title>
 </head>
 <body>
-  
+  <form action="cadastro.php" method="get" autocomplete="on">
+    <p>
+      <label for="iestado">Estado</label>
+      <select name="estado" id="iestado" >
+        <optgroup label="estados do brasil">
+          <option value="" selected>---escolha---</option>
+          <option value="MG">Minas gerais</option>
+          <option value="SP">São paulo</option>
+          <option value="Aju">Aracaju</option>
+        </optgroup>
+      </select>
+    </p>
+    <p>
+      <label for="iprof">profissão</label>
+      <input type="text" name="prof" id="iprof" list="profissoes">
+      <datalist id="profissoes">
+        <option value="adm">administrador</option>
+        <option value="eng">Emgemheiro</option>
+        <option value="dev">Desenvolvedor</option>
+      </datalist>
+    </p>
+    <p>
+      <label for="imensagem">Mensagem:</label>
+      <textarea name="mensagem" id="imensagem" cols="30" rows="10" placeholder="escrevaaqui"></textarea>
+    </p>
+    <p>
+    
+      <input type="submit" value="enviar">
+      <input type="reset" value="apagar">
+    </p>
+  </form>
 </body>
 </html>
