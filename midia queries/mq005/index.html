@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Menu responsivo</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body onresize="mudouTamanho()">
+  <header>
+    <h1>Meu site</h1>
+    <span id="burguer" class="material-symbols-outlined" onclick="clickMenu()">
+      menu
+      </span>
+    <menu id="itens">
+      <ul>
+        <li><a href="#">opção 1</a></li>
+        <li><a href="#">opção 2</a></li>
+        <li><a href="#">opção 3</a></li>
+        <li><a href="#">opção 4</a></li>
+        <li><a href="#">opção 5</a></li>
+      </ul>
+    </menu>
+  </header>
+  <main>
+    <article>
+      <h2>testando midia queries</h2>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, dolor quos vel porro reiciendis recusandae deleniti expedita, laudantium quia officia explicabo laboriosam pariatur odit rem nisi vero ullam nam doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus, aspernatur laudantium vel sed nulla ducimus soluta fugiat eos quaerat dolore ullam harum fuga totam tempora repellat reiciendis pariatur debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dicta ipsa dolore aliquid illo rem corporis aut deserunt exercitationem laudantium minus, voluptas veritatis tempore delectus aspernatur libero expedita. Facilis, omnis.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, dolor quos vel porro reiciendis recusandae deleniti expedita, laudantium quia officia explicabo laboriosam pariatur odit rem nisi vero ullam nam doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus, aspernatur laudantium vel sed nulla ducimus soluta fugiat eos quaerat dolore ullam harum fuga totam tempora repellat reiciendis pariatur debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dicta ipsa dolore aliquid illo rem corporis aut deserunt exercitationem laudantium minus, voluptas veritatis tempore delectus aspernatur libero expedita. Facilis, omnis.</p>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non, dolor quos vel porro reiciendis recusandae deleniti expedita, laudantium quia officia explicabo laboriosam pariatur odit rem nisi vero ullam nam doloribus? Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita delectus, aspernatur laudantium vel sed nulla ducimus soluta fugiat eos quaerat dolore ullam harum fuga totam tempora repellat reiciendis pariatur debitis! Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, dicta ipsa dolore aliquid illo rem corporis aut deserunt exercitationem laudantium minus, voluptas veritatis tempore delectus aspernatur libero expedita. Facilis, omnis.</p>
+    </article>
+  </main>
+  <script>
+    function mudouTamanho(){
+      if( window.innerWidth >= 768){
+        itens.style.display='block'
+      }else{
+        itens.style.display='none'
+      }
+    }
+    function clickMenu() {
+      if( itens.style.display == 'block') {
+        itens.style.display = 'none'
+      }else{
+        itens.style.display = 'block'
+      }
+    }
+  </script>
+</body>
+</html>
